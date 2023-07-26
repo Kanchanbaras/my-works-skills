@@ -1,0 +1,120 @@
+.logo{
+    background: white;
+    width: 500px;
+    height:50px;
+    padding: 20px;
+    background-image: url("../images/divya-logo-01.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.navigation-bar{
+    display:flex;
+    background-color:white; /* Set background color */
+    padding: 20px; /* Add some padding */
+}
+.navigation-items-right{
+    padding-top: 10px;
+    list-style-type: none; /* to Remove bullet points */
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 90%;
+}
+.navigation-items-right li{
+padding: 20px;
+color:teal;
+font-size: 20px;
+display:inline-block;/*display items horizontally*/
+}
+.navigation-items-right li a{
+font-family: Arial, Helvetica, sans-serif;
+color: teal;
+text-decoration: none;
+}
+.hero-section {
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+    font-size: 35px;
+}
+
+/* Work Items */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800
+    px;
+    margin: 0 auto;
+}
+
+.work-item {
+    width: 445px;
+    height: 555px;
+    margin-bottom: 60px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#work1 {
+    margin-left: 170px;
+}
+#work1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+ padding-top: 20px;
+}
+#work2 {
+    margin-left: 60px;
+}
+#work2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#work3 {
+    margin-left: 170px;
+}
+#work3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+.skills {
+    display:flex;
+    margin-left:100px;
+    margin-right: 500px;
+}
+
+.skills p{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    font-size: 25px;
+    color: #4b4a4a;
+}
+.footer-menu-bar {
+    margin-top: 50px;
+    display:flex;
+    background-color:teal; /* Set background color */
+    padding: 20px; /* Add some padding */
+    padding-top: 10px;
+       height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+    .footer-menu-bar a{
+        padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+text-decoration: none;
+
+
+    }
