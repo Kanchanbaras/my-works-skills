@@ -5,7 +5,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <div class="navigation-bar">
+   <!-- <div class="navigation-bar">
         <div class="logo"></div>
             <ul class="navigation-items-right">
                 <li><a href="#">Works</a></li>
@@ -14,8 +14,21 @@
                 <li><a href="#">Resume</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
-    </div>
+    </div>-->
         <!-- ... (your navigation code here) ... -->
+
+        <div class="header">
+            <a href="#default"><strong>DIVYA.KANCHANBARAS</strong></a>
+            <div class="header-right">
+              <a class="active" href="#home">Work</a>
+              <a href="#contact">Home</a>
+              <a href="#about">About</a>
+              <a href="#about">LinkedIn</a>
+              <a href="#about">Resume</a>
+              <a href="#about">Contact</a>
+            </div>
+          </div>
+
 
 
     <!-- Hero Section -->
@@ -75,5 +88,17 @@
 
     <!-- JavaScript (Optional) -->
     <script src="js/scripts.js"></script>
+    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
 </body>
 </html>
